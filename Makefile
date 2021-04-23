@@ -1,3 +1,7 @@
+clean:
+	rm -rf bin/*.xcframework | true
+	rm bin/*.a | true
+
 build-godot:
 	cd godot && scons platform=iphone target=release
 

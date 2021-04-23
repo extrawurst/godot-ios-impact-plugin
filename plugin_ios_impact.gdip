@@ -2,8 +2,8 @@
 name="IosImpact"
 binary="iosimpact.xcframework"
 
-initialization="godot_plugin_ios_impact_init"
-deinitialization="godot_plugin_ios_impact_deinit"
+initialization="godot_plugin_init"
+deinitialization="godot_plugin_deinit"
 
 [dependencies]
 linked=[]

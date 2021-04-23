@@ -7,14 +7,14 @@
 
 IosImpact *plugin;
 
-void godot_plugin_ios_impact_init() {
+void godot_plugin_init() {
     NSLog(@"godot_plugin_ios_impact_init");
 
     plugin = memnew(IosImpact);
     Engine::get_singleton()->add_singleton(Engine::Singleton("IosImpact", plugin));
 }
 
-void godot_plugin_ios_impact_deinit() {
+void godot_plugin_deinit() {
     NSLog(@"godot_plugin_ios_impact_deinit");
     
     if (plugin) {
