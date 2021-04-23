@@ -1,0 +1,17 @@
+[config]
+name="IosImpact"
+binary="iosimpact.xcframework"
+
+initialization="godot_plugin_ios_impact_init"
+deinitialization="godot_plugin_ios_impact_deinit"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=["UIKit.framework"]
+
+capabilities=[]
+
+files=[]
+
+[plist]
