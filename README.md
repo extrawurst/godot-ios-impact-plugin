@@ -4,7 +4,7 @@ Provides access to the `UIImpactFeedbackGenerator` api for haptic impacts that a
 
 Usage in gdscript:
 
-```
+```gd
 if Engine.has_singleton("IosImpact"):
     var singleton = Engine.get_singleton("IosImpact");
     singleton.impact();
