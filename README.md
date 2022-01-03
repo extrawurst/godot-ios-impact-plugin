@@ -10,6 +10,10 @@ if Engine.has_singleton("IosImpact"):
     singleton.impact();
 ```
 
+## Build
+
+its based on https://github.com/godotengine/godot-ios-plugins which contains instructions on how to build
+
 ## Todo
 
 - [ ] support the different impact weights
